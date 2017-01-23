@@ -3,7 +3,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
   
-  ## Creates a list where each element is a function that is may be called by the cacheSolve()
+  ## Creates a list where each element is a function that may be called by the cacheSolve()
   
   s<-NULL
   set<-function(y){
